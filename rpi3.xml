@@ -4,11 +4,6 @@
 
         <default remote="github" revision="master" />
 
-        <!-- linaro-swg gits -->
-	<!-- ARM Trusted Firmware, cannot use refs/tags, since we need current tip and that is not tagged  -->
-        <project path="u-boot" name="linaro-swg/u-boot.git"
-          revision="bc6d93cf5eee9fc979a7c5141ff6312bed2835a2"/>
-
 	<!-- Buildroot -->
 	<project path="buildroot" name="buildroot/buildroot.git"
 		 revision="2018.02.x" />
