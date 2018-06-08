@@ -4,27 +4,14 @@
 
         <default remote="github" revision="master" />
 
-        <!-- OP-TEE gits -->
-        <project path="optee_client" name="OP-TEE/optee_client.git" />
-        <project path="optee_os" name="OP-TEE/optee_os.git" />
-        <project path="optee_test" name="OP-TEE/optee_test.git" />
-
         <!-- linaro-swg gits -->
 	<!-- ARM Trusted Firmware, cannot use refs/tags, since we need current tip and that is not tagged  -->
-        <project path="arm-trusted-firmware"
-		 name="linaro-swg/arm-trusted-firmware.git"
-		 revision="rpi3_initial_drop"/>
-
-        <project path="optee_benchmark" name="linaro-swg/optee_benchmark.git"/>
-
-        <project path="optee_examples" name="linaro-swg/optee_examples.git" />
-
         <project path="u-boot" name="linaro-swg/u-boot.git"
           revision="bc6d93cf5eee9fc979a7c5141ff6312bed2835a2"/>
 
 	<!-- Buildroot -->
 	<project path="buildroot" name="buildroot/buildroot.git"
-		 revision="2018.05.x" />
+		 revision="2018.02.x" />
 
         <!-- Misc gits -->
         <project path="firmware" name="raspberrypi/firmware.git"
